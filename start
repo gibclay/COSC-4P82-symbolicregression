@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# If the first parameter is empty then exit.
+if [ -z "$1" ]; then
+	exit
+fi
+
+file=$1
+
+while true; do
+	vim $file
+	clear
+	/home/raj/pip-env/bin/python $file
+	read -n 1 -s
+done
