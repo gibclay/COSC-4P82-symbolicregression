@@ -1,2 +1,2 @@
-# Symbolic Rice Regression
-This project performs symbolic regression using Genetic Programming to classify a series of rice grains.
+# Symbolic Regression
+This project performs symbolic regression on a set of inputs to attempt to interpolate a line of best fit between them.
